@@ -4,6 +4,7 @@ The Text Simplifier Application is a Java-based utility designed to simplify tex
 Features
 
 1. Interactive Menu
+   
 o Users can specify file paths for:
 
 1. Word embeddings file
