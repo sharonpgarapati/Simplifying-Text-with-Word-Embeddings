@@ -7,34 +7,34 @@ Features
    
 o Users can specify file paths for:
 
-1. Word embeddings file
-2. Google-1000 words file (list of simpler words)
-3. Input text file
-4. Output text file
+. Word embeddings file
+. Google-1000 words file (list of simpler words)
+. Input text file
+. Output text file
 
 o Option to exit the application gracefully.
 
 2. Text Simplification
  
-1. Replaces complex words in the input text with the most similar simpler word
+. Replaces complex words in the input text with the most similar simpler word
 from the Google-1000 words list.
-2. Utilizes cosine similarity to find the best match for each complex word based
+. Utilizes cosine similarity to find the best match for each complex word based
 on embedding vectors.
 
 3. File Handling
    
-1. Reads word embeddings and Google-1000 words from user-specified files.
-2. Processes input text and writes the simplified text to an output file.
+. Reads word embeddings and Google-1000 words from user-specified files.
+. Processes input text and writes the simplified text to an output file.
 
 4. Embedding Loading
  
-1. Embedding vectors for words are stored in a HashMap for efficient lookup.
-2. Handles multi-dimensional embedding vectors parsed from a text file.
+. Embedding vectors for words are stored in a HashMap for efficient lookup.
+. Handles multi-dimensional embedding vectors parsed from a text file.
 
 5. Google-1000 Words Set
    
-1. Loads a list of predefined simpler words into a Set for quick lookups.
-2. Ensures that replacements are limited to this curated list.
+. Loads a list of predefined simpler words into a Set for quick lookups.
+. Ensures that replacements are limited to this curated list.
 
 6. Cosine Similarity Computation
    
@@ -45,18 +45,18 @@ Classes and Responsibilities
 
 1. TextSimplifierApp
    
-1. Provides the main entry point for the application.
-2. Manages user interaction and controls program flow.
+. Provides the main entry point for the application.
+. Manages user interaction and controls program flow.
 
 2. LoadFiles
    
-1. Handles file loading for word embeddings and Google-1000 words.
-2. Parses data into HashMap and Set for efficient processing.
+. Handles file loading for word embeddings and Google-1000 words.
+. Parses data into HashMap and Set for efficient processing.
 
 3. TextSimplifierAPI
    
-1. Contains the core logic for text simplification.
-2. Implements cosine similarity to measure vector similarity.
+. Contains the core logic for text simplification.
+. Implements cosine similarity to measure vector similarity.
 
 Dependencies
 
@@ -88,10 +88,10 @@ Enter the path and anme of the embeddings file:
 o File paths for embeddings, Google-1000 words, input text, and output text.
 
 Eg:
-1. C:\Users\Sharo\Desktop\datastructuresassignment\embeddings.txt
-2. C:\Users\Sharo\Desktop\datastructuresassignment\google-1000.txt
-3. C:\Users\Sharo\Desktop\datastructuresassignment\inputText.txt
-4. :\Users\Sharo\Desktop\datastructuresassignment\outputText.txt
+. C:\Users\Sharo\Desktop\datastructuresassignment\embeddings.txt
+. C:\Users\Sharo\Desktop\datastructuresassignment\google-1000.txt
+. C:\Users\Sharo\Desktop\datastructuresassignment\inputText.txt
+. :\Users\Sharo\Desktop\datastructuresassignment\outputText.txt
 
 Limitations
 
@@ -102,8 +102,8 @@ Limitations
    
 Future Enhancements
 
-1. The program uses only Cosine Similarity computation for finding similar words, and
+. The program uses only Cosine Similarity computation for finding similar words, and
 the results are not perfect. This can be further improved by trying out other methods
 for computing similarity.
-2. Improved UI/UX with graphical or web-based interaction.
-3. Enhanced error handling for malformed or missing files.
+. Improved UI/UX with graphical or web-based interaction.
+. Enhanced error handling for malformed or missing files.
