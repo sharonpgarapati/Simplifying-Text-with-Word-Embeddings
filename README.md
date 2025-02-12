@@ -6,13 +6,10 @@ Features
 1. Interactive Menu
 o Users can specify file paths for:
 
- Word embeddings file
-
- Google-1000 words file (list of simpler words)
-
- Input text file
-
- Output text file
+1. Word embeddings file
+2. Google-1000 words file (list of simpler words)
+3. Input text file
+4. Output text file
 
 o Option to exit the application gracefully.
 
