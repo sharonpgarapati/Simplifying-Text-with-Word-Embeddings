@@ -1,4 +1,4 @@
-# Simplifying-Text-with-Word-Embeddings
+# Simplifying-Text-with-Word-Embeddings - 2024
 
 Author: Sharon P Garapati
 
